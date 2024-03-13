@@ -1,37 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Weather Dashboard
 
-## Getting Started
+The Weather Dashboard is a web application that provides users with up-to-date weather information for any location. Users can search for locations by city name or zip code and view the current weather conditions, including temperature, description, wind speed and direction, humidity, and UV index. Additionally, users have the option to view a 5-day forecast for the selected location.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Search Functionality:** Search for locations by entering a city name or zip code.
+- **Current Weather Display:** View the current weather conditions for the searched location, including temperature in Fahrenheit and Celsius, weather description, wind speed and direction, humidity, and UV index.
+- **5-Day Forecast:** Option to view a 5-day forecast for the selected location.
+- **Responsive Design:** Application is responsive and adapts seamlessly to different screen sizes and devices.
+- **Accessibility:** Designed following WCAG guidelines to ensure accessibility for users with disabilities.
+- **Visual Feedback:** Provides visual feedback to users during interactions, such as loading indicators and error messages.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# Weather-Api
+- **Next.js:** For efficient server-side rendering and optimal performance.
+- **Tailwind CSS:** For rapid and responsive design.
+- **TypeScript:** Enhances code maintainability and type safety.
+- **Jest:** For unit testing to ensure code quality and reliability.
+- **Weather API:** Integrates with a weather API (e.g., OpenWeatherMap, Weather Underground) to retrieve weather data based on user input.
